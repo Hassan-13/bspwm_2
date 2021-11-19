@@ -6,7 +6,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 feh --bg-fill ~/Imágenes/wp1.jpg
 compton --config ~/.config/compton/compton.conf &
 flameshot &
-firefox
+
 
 
 bspc monitor -d I II III IV V VI VII VIII IX X
